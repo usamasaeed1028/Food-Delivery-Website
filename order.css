@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+#wrapper{
+    width: 100%;
+    background-color: rgb(34 68 24);
+    display: grid;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px 1px;
+}
+#logo-img{
+    width: 83px;
+    height: 79px;
+    margin: 0px 25px;
+}
+
+.nav-items li {
+    display: inline;
+    margin: 1px 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: #1f7437;;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.logo-items li {
+    display: inline;  
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+
+  
+  }
+  #header{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(34 68 24);
+
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+a{
+    text-decoration: none;
+}
+.nav-items li:hover{
+    background-color: white;
+    color: black;
+}
+
+.data{
+  background-color: #ffdbdb;
+  text-align: center;
+}
+#form-data input,select{
+  margin-top: 20px;
+  width: 30%;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+#meals input{
+  margin-top: 10px;
+  
+}
+#specialoffer{
+      margin-right: 14px;
+
+}
+#zingerburger{
+      margin-right: 23px;
+}
+#beefburger{
+      margin-right: 4px;
+}
+#premiumdeals{
+      margin-right: 26px;
+}
+#beverages{
+      margin-right: -11px;
+     
+}
+#footer{
+  text-align: center;
+  background-color: #ffdbdb;
+}
+#footer h2{
+  padding-top: 40px;
+}
+#placeorder{
+  margin-top: 25px;
+  background-color: rgb(34 68 24);
+  color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#placeorder:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
